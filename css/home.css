@@ -480,7 +480,7 @@ footer{
 }
 
 @media screen and (max-width:480px){
- .master, .Slides, .cabecalho, #sobreNos-container {
+ .master, .Slides, .cabecalho, {
 
   
   width: 100vh;
@@ -501,6 +501,7 @@ footer{
   #sobreNos-container{
     align-items:center;
     justify-content:center;
+    width:150vh;
   }
   
   .sobreNos{
