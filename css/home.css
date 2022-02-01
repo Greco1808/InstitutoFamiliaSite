@@ -526,9 +526,12 @@ footer{
   
   .cursos_container{
   flex-direction:column;
+  height:120vh;
 }
   
   .descricao_curso{
     width:auto;
   }
+  
+  
 }
