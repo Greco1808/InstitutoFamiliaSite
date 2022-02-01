@@ -480,5 +480,10 @@ footer{
 }
 
 @media screen and (max-width:480px){
- background-color:red; 
+ .master{
+
+  position:relative;
+  width: auto;
+ 
+} 
 }
