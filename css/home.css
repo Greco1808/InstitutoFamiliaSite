@@ -487,6 +487,12 @@ footer{
  
 }
   
+  .Slides{
+    
+    height:100vh;
+    
+  }
+  
   .cabecalho{
   
   flex-direction:column;
