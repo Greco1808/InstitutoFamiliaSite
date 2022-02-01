@@ -480,7 +480,7 @@ footer{
 }
 
 @media screen and (max-width:480px){
- .master, .Slides, .cabecalho {
+ .master, .Slides, .cabecalho, #sobreNos-container {
 
   
   width: 100vh;
@@ -496,6 +496,15 @@ footer{
   .cabecalho{
   
   flex-direction:column;
+  }
+  
+  #sobreNos-container{
+    align-items:center;
+    justify-content:center;
+  }
+  
+  .sobreNos{
+    flex-direction:column;
   }
   
 }
