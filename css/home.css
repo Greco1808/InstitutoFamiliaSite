@@ -558,6 +558,7 @@ footer{
   
   margin:auto;
   width:100vh;
+  grid-template-columns:auto auto auto;
   }
   
   .form, .form_mensagem, .enviar{
