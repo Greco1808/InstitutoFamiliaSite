@@ -536,14 +536,14 @@ footer{
   .depoimentos{
     
     width:100vh;
-    height:150vh;
+    height:260vh;
   
 }
   
   .depoimentos-container{
     height:auto;
     padding-bottom:5px;
-    width:40vh;
+    width:90vh;
     margin-bottom:5rem;
     
   }
@@ -551,7 +551,7 @@ footer{
   .foto{
     
     top:-25%;
-    left:25%;
+    left:40%;
     
   }
 .fotos-container{
