@@ -480,10 +480,16 @@ footer{
 }
 
 @media screen and (max-width:480px){
- .master, .Slides {
+ .master, .Slides, .cabecalho {
 
   
-  width: auto;
+  width: 100vw;
  
-} 
+}
+  
+  .cabecalho{
+  
+  flex-direction:column;
+  }
+  
 }
