@@ -480,7 +480,7 @@ footer{
 }
 
 @media screen and (max-width:480px){
- .master, .Slides, .cabecalho, #sobreNos-container {
+ .master, .Slides, .cabecalho, #sobreNos-container, .cursos {
 
   
   width: 100vh;
@@ -508,4 +508,16 @@ footer{
     flex-direction:column;
   }
   
+  .cursos_img{
+   
+    width:100vw;
+    height:60vh;
+    
+  }
+  
+  .cursos_imagem_container{
+    
+    width:100vw;
+    height:100vh;
+    margin:0 auto;
 }
