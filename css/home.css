@@ -533,5 +533,35 @@ footer{
     width:auto;
   }
   
+  .depoimentos{
+    
+    width:100vh;
+    height:150vh;
   
 }
+  
+  .depoimentos-container{
+    height:auto;
+    padding-bottom:5px;
+    width:40vh;
+    margin-bottom:5rem;
+    
+  }
+  
+  .foto{
+    
+    top:-25%;
+    left:25%;
+    
+  }
+.fotos-cotainer{
+  
+  margin:auto;
+  width:100vh;
+  }
+  
+  .form, .form_mensagem, .enviar{
+    
+    width:100vh;
+    
+  }
