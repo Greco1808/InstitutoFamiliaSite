@@ -478,3 +478,7 @@ footer{
   padding:  0 5px 0 11px;
   font-size:  40px;
 }
+
+@media screen and max-width(480px){
+ background-color:red; 
+}
