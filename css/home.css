@@ -527,4 +527,8 @@ footer{
   .cursos_container{
   flex-direction:column;
 }
+  
+  .descricao_curso{
+    width:auto;
+  }
 }
