@@ -140,14 +140,20 @@ border: 1px solid rgba(15, 15, 15, 0.31);
 .saibaMais{
   
   box-sizing:border-box;
-  color:white;
+  color:#f6f2f0;
   position:absolute;
-  border:1px solid white;
   border-radius:8px;
-  padding:1rem;
+  padding:1rem 2rem;
   cursor:pointer;
-  top:50%;
-  left:50%;
+  top:80%;
+  left:42%;
+  background:#e5aa15;
+  text-transform:uppercase;
+  opacity:0.9;
+  
+}
+
+.saibaMais: hover{
   
 }
 
