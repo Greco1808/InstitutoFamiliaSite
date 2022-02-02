@@ -585,7 +585,25 @@ footer{
     
     width:95vh;
     
+    
   }
 
-
+#borda_chamada1, #borda_chamada2{
+  
+  width:90vh;
+  padding: 2rem 0;
+  
+  
+  }
+  
+  #borda_chamada3{
+    width:88vh;
+    padding:2rem 0;
+    
+  }
+  
+}
+    
+    
+  
 
