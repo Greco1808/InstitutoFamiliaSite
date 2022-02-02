@@ -21,8 +21,8 @@ function avancaTexto(){
 
       
 
-setTimeout(avancaSlide,5000)
-setTimeout(avancaChamada,5500)
+setInterval(avancaSlide,5000)
+setInterval(avancaChamada,5500)
 
 function controlaSlide(){
   
