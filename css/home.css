@@ -549,11 +549,17 @@ footer{
   
   .cursos_container{
   flex-direction:column;
-  height:120vh;
+  height:170vh;
 }
   
   .descricao_curso{
     width:auto;
+  }
+  
+  .descricao_curso p{
+    
+    font-size:30px;
+    
   }
   
   .depoimentos{
