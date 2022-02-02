@@ -150,6 +150,9 @@ border: 1px solid rgba(15, 15, 15, 0.31);
   background:#e5aa15;
   text-transform:uppercase;
   opacity:0.9;
+  font-size: 1.5em;
+  letter-spacing: 4px;
+  font-family: 'Bebas Neue', cursive;
   
 }
 
