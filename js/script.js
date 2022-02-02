@@ -1,28 +1,28 @@
 var slides =document.getElementsByClassName("Slides")
 var button = document.querySelector('.next')
-var chamada = document.getElementsByClassName("borda_chamada")
+//var chamada = document.getElementsByClassName("borda_chamada")
 
 
 var index = 0
 controlaSlide()
-avancaChamada()
+//avancaChamada()
 
 function avancaSlide(){
   controlaSlide(index += 1)
   
 }
 
-function avancaTexto(){
-  avancaChamada(index += 1)
+//function avancaTexto(){
+ // avancaChamada(index += 1)
 
-}
+//}
 
 
 
       
 
 setInterval(avancaSlide,5000)
-setInterval(avancaChamada,5500)
+//setInterval(avancaChamada,5500)
 
 function controlaSlide(){
   
@@ -44,21 +44,21 @@ slides[index].style.display = "block"
 }
 
 
-function avancaChamada(){
+//function avancaChamada(){
   
-  if(index >= chamada.length){
-    index = 0;
-  }
+  //if(index >= chamada.length){
+   // index = 0;
+ // }
+  //
   
+  //for(i = 0 ;i < chamada.length ; i++){
   
-  for(i = 0 ;i < chamada.length ; i++){
+  //chamada[i].style.display = "none"
   
-  chamada[i].style.display = "none"
-  
-}
+//}
 
-chamada[index].style.display = "block"
+//chamada[index].style.display = "block"
   
-  console.log(index)
+  //console.log(index)
   
-}
+//}
