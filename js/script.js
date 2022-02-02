@@ -30,9 +30,6 @@ function controlaSlide(){
     index = 0;
   }
   
-  if(index < 0){
-    index = slides.length - 1;
-  }
   
   for(i = 0 ;i < slides.length ; i++){
   
@@ -53,9 +50,6 @@ function avancaChamada(){
     index = 0;
   }
   
-  if(index < 0){
-    index = chamada.length - 1;
-  }
   
   for(i = 0 ;i < chamada.length ; i++){
   
