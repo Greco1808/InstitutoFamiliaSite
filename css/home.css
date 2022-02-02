@@ -517,12 +517,19 @@ footer{
   #sobreNos-container{
     align-items:center;
     justify-content:center;
+    height:120vh;
   
   }
   
   .sobreNos{
     flex-direction:column;
+    height:100vh;
   }
+  
+  .sobreNos p{
+    
+    margin-top: 2rem;
+    font-size:26px;
   
   .cursos_img{
    
