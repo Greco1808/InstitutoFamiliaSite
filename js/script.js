@@ -21,13 +21,17 @@ function avancaSlide(){
 
       
 
-setInterval(avancaSlide,5000)
+//setInterval(avancaSlide,5000)
 //setInterval(avancaChamada,5500)
 
 function controlaSlide(){
   
   if(index >= slides.length){
     index = 0;
+  }
+  
+  if(index < 0){
+    index = slides.length -1;
   }
   
   
