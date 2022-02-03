@@ -318,6 +318,7 @@ border-radius: 5px;
   /*background:#4d82a4;
   box-shadow:5px 5px 5px grey;
   border-radius: 8px;
+  flex-wrap:wrap;
   */
 }
 
@@ -584,6 +585,7 @@ footer{
   
   .cursos_container{
   flex-direction:column;
+  flex-wrap:nowrap;
   height:170vh;
 }
   
