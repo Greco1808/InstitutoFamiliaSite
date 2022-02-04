@@ -239,6 +239,7 @@ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(7.9px);
 -webkit-backdrop-filter: blur(7.9px);
 border: 1px solid rgba(233, 231, 224, 0.3);
+flex-wrap:wrap;
 }
 
 
@@ -248,6 +249,18 @@ border: 1px solid rgba(233, 231, 224, 0.3);
   color:black;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
+}
+
+.sobreNos img{
+  
+  flex:1 1 200px;
+  
+}
+
+.sobreNos_descricao{
+  
+  flex:1 1 200px;
+  
 }
 
 .criador{
