@@ -220,7 +220,7 @@ transition:500ms background-color;
   display: flex;
   align-items: center;
   background:url("../img/Banner4.jpg") ; 
-  height: 35rem;
+  height: 100%;
 }
 
 .sobreNos{
