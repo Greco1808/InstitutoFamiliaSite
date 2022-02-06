@@ -90,7 +90,7 @@ html{
   font-size:45px;
   text-transform:  uppercase ;
   left: 5%;
-  
+  margin-top: 1rem;
 }
 
 #borda_chamada1{
@@ -406,7 +406,8 @@ h3{
   border-radius:10px;
   box-shadow: 5px 5px 5px grey;
   flex:0 1 450px;
-  margin:2rem 0;
+  margin:3rem 0;
+  padding-bottom: 2rem;
 
 
   
@@ -433,7 +434,7 @@ h3{
   position:absolute;
   top:-25%;
   left:40%;
-  
+  object-fit: cover;
 }
 
 .fotos-container{
@@ -622,16 +623,17 @@ footer{
   .depoimentos{
     
     width:100vh;
-    height:350vh;
+    height:100%;
   
 }
   
   .depoimentos-container{
-    height:50vh;
+    height:fit-content;
     padding-bottom:5px;
     width:90vh;
-    margin-bottom:5rem;
-    font-size:25px;
+    padding-bottom: 2rem;
+    font-size: 1.8em;
+    margin: 5rem 0;
     
   }
   
@@ -642,8 +644,10 @@ footer{
   
   .foto{
     
-    top:-25%;
-    left:40%;
+    top:-23%;
+    left:35%;
+    width: 9rem;
+    height: 9rem;
     
   }
 .fotos-container{
@@ -664,6 +668,7 @@ footer{
   
   width:90vh;
   padding: 2rem 0;
+
   
   
   }
@@ -674,6 +679,10 @@ footer{
     
   }
   
+  #chamada_1, #chamada_2, #chamada_3{
+
+    margin-top: 0;
+  }
 }
     
     
