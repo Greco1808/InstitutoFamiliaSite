@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@200&family=Montserrat:wght@300&family=Open+Sans:wght@300;400;700&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@200&family=Montserrat:wght@300&family=Open+Sans:wght@300;400;700&family=Roboto:ital,wght@1,300&family=Signika+Negative&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <title>Instituto da família</title>
 </head>
@@ -56,7 +57,7 @@
   <a class="previous" onclick="avancaSlide(1)">&#10095</a>
 </div>
 <h1 style="font-size: 35px; text-align: center; font-family: 'Bebas Neue', cursive; margin-top: 8rem; letter-spacing: 5px;">Sobre o instituto</h1>
-    <section id="sobreNos-container">
+    <section id="sobreNos-container" data-aos="fade-up">
       <div class="sobreNos" id="sobreNos">
      <img src="img/criador.png">
      <div class="sobreNos_descricao">
@@ -72,7 +73,7 @@
     <section>
       <div class="cursos" id="cursos">
         
-      <div class="cursos_container">
+      <div class="cursos_container" data-aos="fade-up">
         <div class="cursos_imagem_container">
             <img src="img/freud.jpg" class="cursos_img">
         </div>
@@ -84,7 +85,7 @@
 
 
       </div>
-      <div class="cursos_container">
+      <div class="cursos_container" data-aos="fade-up">
         
         <div class="cursos_imagem_container">
         <img src="img/teologia.png" class="cursos_img">
@@ -96,7 +97,7 @@
       </div>
       
       </div>
-      <div class="cursos_container">
+      <div class="cursos_container" data-aos="fade-up">
         
         <div class="cursos_imagem_container">
         <img src="img/aconselhamento_cristao.jpg" class="cursos_img">
@@ -231,4 +232,6 @@
   </div>
 </body>
   <script src="js/script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init()</script>
 </html>
