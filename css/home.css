@@ -735,6 +735,20 @@ footer{
   flex-direction:column;
   margin:3rem 0;
 }
+  
+  .endereco_container{
+    
+    margin-bottom:2rem;
+    
+  }
+  
+  .localizacao_container h2{
+    
+    text-align:center;
+    
+  }
+  
+  
 }
     
 
