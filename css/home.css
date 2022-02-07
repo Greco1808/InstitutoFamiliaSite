@@ -514,14 +514,22 @@ border-radius: 5px;
   
   display:flex;
   justify-content:space-around;
-  
+  align-items:center;
+  margin:3rem 0;
 }
 .localizacao h2{
   
   text-align:center;
-  margin-top:3rem;
+  margin:3rem;
   letter-spacing:5px;
-  font-family: 'Bebas Neue', cursive;;
+  font-family: 'Bebas Neue', cursive;
+  font-size:2.3em;
+}
+
+iframe{
+  width:800px;
+  height:200px;
+  
 }
 
 .endereco_container p{
