@@ -536,14 +536,19 @@ iframe{
   
   color:black;
   text-align:left;
+  font-size:1.2em;
+  line-height:2em;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .endereco_container h3{
  
-  margin:0.5em;
+  margin:0.5em 0;
   text-align:left;
-  font-size:1em;
-  
+  font-size:1.5em;
+  font-family: 'Open Sans', sans-serif;
+  text-transform:uppercase;
+  font-weight:bold;
 }
 
 
