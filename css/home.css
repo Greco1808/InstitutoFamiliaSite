@@ -510,12 +510,16 @@ border-radius: 5px;
   background-color:#ffd235;
 }
 
+
+
 footer{
 
   width: 100%;
   height: 10rem;
   background-color: #285861;
 }
+
+
 
 .logotipos{
 
@@ -685,6 +689,18 @@ footer{
   }
 }
     
+
+.localizacao h2{
+  
+  text-align:center;
+  margin-top:3rem;
+  letter-spacing:5px;
+  font-family: 'Bebas Neue', cursive;;
+}
+
+
+  
+  
     
   
 
