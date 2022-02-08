@@ -577,7 +577,7 @@ footer{
 }
 
 @media screen and (max-width:480px){
- .master, .Slides, .cabecalho, #sobreNos-container, .cursos, footer, h1 {
+ .master, .Slides, .cabecalho, #sobreNos-container, .cursos, footer, h1, .localizacao {
 
   
   width: 100vh;
@@ -739,22 +739,26 @@ footer{
   
   .localizacao_container{
   
-  display:flex;  
-  flex-direction:column;
-  margin:3rem 0;
+  display:block;  
+  
+  
 }
   
   .endereco_container{
     
-    margin-bottom:2rem;
+    margin:0 0 2rem 2rem;
+    display:inline-block;
     
   }
   
-  .localizacao_container h2{
+  iframe{
     
-    text-align:center;
+    width:90vh;
+    margin-left:2rem;
     
   }
+  
+  
   
   
 }
