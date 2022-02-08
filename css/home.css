@@ -729,6 +729,14 @@ footer{
     margin-top: 0;
   }
   
+  #localizacao{
+    
+    width:100vh;
+    margin:0;
+    
+  }
+    
+  
   .localizacao_container{
   
   display:flex;  
