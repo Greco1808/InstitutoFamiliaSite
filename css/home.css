@@ -530,6 +530,7 @@ border-radius: 5px;
 iframe{
   width:600px;
   height:200px;
+  margin-bottom:2rem;
   
 }
 
@@ -756,6 +757,8 @@ footer{
     
     display:inline-block;
     margin-bottom:1rem;
+    font-size:1.3em;
+    width:80vh;
     
   }
   
