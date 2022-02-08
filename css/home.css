@@ -516,6 +516,7 @@ border-radius: 5px;
   justify-content:space-around;
   align-items:center;
   margin:3rem 0;
+  flex-wrap:wrap;
 }
 #localizacao{
   
@@ -527,9 +528,15 @@ border-radius: 5px;
 }
 
 iframe{
-  width:800px;
+  width:600px;
   height:200px;
   
+}
+
+.endereco_container{
+  
+  width:35%
+    
 }
 
 .endereco_container p{
@@ -748,12 +755,13 @@ footer{
     
     
     display:inline-block;
+    margin-bottom:1rem;
     
   }
   
   iframe{
     
-    width:90vh;
+    width:80vh;
     
     
   }
