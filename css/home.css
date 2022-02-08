@@ -740,13 +740,13 @@ footer{
   .localizacao_container{
   
   display:block;  
-  
+  margin:3rem 2rem;
   
 }
   
   .endereco_container{
     
-    margin:0 0 2rem 2rem;
+    
     display:inline-block;
     
   }
@@ -754,7 +754,7 @@ footer{
   iframe{
     
     width:90vh;
-    margin-left:2rem;
+    
     
   }
   
