@@ -628,7 +628,7 @@ footer{
   #sobreNos-container{
     align-items:center;
     justify-content:center;
-    height:120vh;
+    height:fit-content;
   
   }
   
