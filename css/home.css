@@ -245,10 +245,10 @@ flex-wrap:wrap;
 
 .sobreNos p{
   
-  text-align:center;
+  text-align:justify;
   color:black;
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
 }
 
 .sobreNos img{
