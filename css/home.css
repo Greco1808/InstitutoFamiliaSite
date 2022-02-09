@@ -635,6 +635,7 @@ footer{
   .sobreNos{
     flex-direction:column;
     height:fit-content;
+    margin:4rem 2rem;
     
   }
   
