@@ -375,13 +375,21 @@ border-radius: 5px;
 
 /* Início da sessão dos Instrutores */
 
+.instrutores{
+  
+  margin:7rem 0 7rem 0;
+}
 
+.instrutores_container{
+  
+  display:flex;
+  justify-content:center;
+  height:100%;
 
 .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 200px;
-  border: 1px solid #f1f1f1;
+  width: 30%;
+  height: 20rem;
   perspective: 1000px; 
 }
 
@@ -408,7 +416,6 @@ border-radius: 5px;
 }
 
 .flip-card-front {
-  background-color: #bbb;
   color: black;
 }
 
