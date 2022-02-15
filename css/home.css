@@ -385,6 +385,7 @@ border-radius: 5px;
   display:flex;
   justify-content:center;
   height:100%;
+  
 }
 
 .flip-card {
@@ -414,10 +415,17 @@ border-radius: 5px;
   height: 100%;
   -webkit-backface-visibility: hidden; 
   backface-visibility: hidden;
+  margin:0 2rem;
+  
+  
 }
 
 .flip-card-front {
   color: black;
+  background-color:coral;
+  border-radius:100%;
+  width:300px;
+  height:300px;
 }
 
 .flip-card-back {
@@ -426,6 +434,24 @@ border-radius: 5px;
   transform: rotateY(180deg);
 }
 
+.flip-card-back p{
+  
+  text-align:justify;
+  margin:2em 2em;
+  font-size:1.5em;
+  line-height:1.5em;
+}
+
+.SaibaMais{
+  
+  position:absolute;
+  bottom:20%;
+  left:25%;
+  right:25%;
+  border-radius:8px;
+  padding:0.8em;
+  background-color:white;
+}
 
 /* Início da sessão dos Depoimentos */
 
