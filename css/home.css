@@ -393,6 +393,12 @@ border-radius: 5px;
   
 }
 
+#foto-instrutor{
+  
+  object-fit:cover;
+  
+}
+
 .img-instrutor{
   
 width:80%;
