@@ -375,6 +375,53 @@ border-radius: 5px;
 
 /* Início da sessão dos Instrutores */
 
+.instrutores{
+  
+  display:flex;
+  justify-content:space-around;
+  
+}
+
+.instrutores-container{
+  display:flex;
+  height:100%;
+  width:30%;
+  flex-direction:column;
+  justify-content:center;
+  align-content:center;
+  
+  
+}
+
+.img-instrutor{
+  
+width:12rem;
+height:12rem;
+background-color:coral;
+border-radius:8px;
+margin:0 auto;
+filter:grayscale(100%)
+}
+
+.img-instrutor:hover{
+  filter:grayscale(0%);
+  transition:filter 0.8s;
+}
+
+.descricao-instrutor h2{
+  
+  text-align:center;
+}
+
+.descricao-instrutor p{
+  
+  text-align:justify;
+  margin:0 auto;
+  width:50%;
+  
+}
+
+
 
 
 /* Início da sessão dos Depoimentos */
