@@ -395,12 +395,13 @@ border-radius: 5px;
 
 .img-instrutor{
   
-width:12rem;
-height:12rem;
+width:80%;
+height:20rem;
 background-color:coral;
 border-radius:8px;
 margin:0 auto;
-filter:grayscale(100%)
+filter:grayscale(100%);
+margin-bottom:1rem;
 }
 
 .img-instrutor:hover{
@@ -408,9 +409,17 @@ filter:grayscale(100%)
   transition:filter 0.8s;
 }
 
+.descricao-instrutor{
+  
+  margin:0 1.5em;
+  
+}
+
 .descricao-instrutor h2{
   
   text-align:center;
+  font-size:1.8em;
+  margin-bottom:1rem;
 }
 
 .descricao-instrutor p{
@@ -419,9 +428,13 @@ filter:grayscale(100%)
   margin:0 auto;
   width:50%;
   color:black;
+  font-size:1.5em;
   
 }
 
+
+  
+  
 
 
 
