@@ -383,8 +383,6 @@ border-radius: 5px;
 
 .instrutores-container{
   display:flex;
-  height:100%;
-  width:30%;
   margin-bottom:2em;
   flex-direction:column;
   justify-content:center;
