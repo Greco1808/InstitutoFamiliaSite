@@ -373,10 +373,41 @@ border-radius: 5px;
 
 /* Início da sessão dos Instrutores */
 
+.presidente{
+  
+  grid-column: 1/4;
+  display: flex;
+}
+
+.presidente figure{
+  
+  width: 50%;
+  margin: 2em 3em;
+  
+}
+
+.presidente article{
+  
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+.presidente h2{
+  
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+.presidente p{
+  
+  margin: 5em 5em;
+}
 .instrutores{
   
   display:grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto;
   align-items: start;
   
 }
