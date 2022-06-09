@@ -717,6 +717,8 @@ footer{
   width: 100vh;
  
 }
+  
+
 
   h1{
    
@@ -797,6 +799,12 @@ footer{
   .descricao_curso p{
     
     font-size:30px;
+    
+  }
+  
+  .instrutores{
+    
+    grid-template-columns:auto auto;
     
   }
   
