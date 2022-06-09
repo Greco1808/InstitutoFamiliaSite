@@ -805,6 +805,13 @@ footer{
   .instrutores{
     
     grid-template-columns:auto auto;
+    width:100vh;
+    
+  }
+  
+  .presidente{
+    
+    grid-column:1/3;
     
   }
   
