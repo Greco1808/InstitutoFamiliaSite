@@ -382,16 +382,25 @@ border-radius: 5px;
 
 /* Início da sessão dos Instrutores */
 
+.instrutores{
+  
+  display: grid;
+  grid-template-columns: 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr;
+  gap: 1em;
+  margin: 0 1em;
+  
+}
+
 .presidente{
   
-  grid-column: 1/4;
+  grid-column: 1/6;
   display: flex;
 }
 
 .presidente figure{
   
-  width: 36%;
-  margin:2em 0 2em 3.5em;
+  width: 50%;
+  height:30em;
   
 }
 
@@ -413,14 +422,7 @@ border-radius: 5px;
   
   margin: 5em 5em;
 }
-.instrutores{
-  
-  display: grid;
-  grid-template-columns: 0.5fr 0.5fr 0.5fr;
-  gap: 1em;
-  margin: 0 1em;
-  
-}
+
 
 .instrutores-container{
   display: flex;
@@ -429,7 +431,6 @@ border-radius: 5px;
     align-items: center;
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
-    padding: 1em;
     min-height: 32em;
     
   
@@ -438,7 +439,7 @@ border-radius: 5px;
 .instrutores-container p{
   
   margin: 0 2em;
-    text-align: center;
+    text-align: left;
     width: 100%;
   
 }
