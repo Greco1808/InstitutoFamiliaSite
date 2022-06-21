@@ -395,6 +395,7 @@ border-radius: 5px;
   
   grid-column: 1/6;
   display: flex;
+  margin: 3em 0;
 }
 
 .presidente figure{
@@ -407,6 +408,10 @@ border-radius: 5px;
 .presidente article{
   
   font-family: 'Open Sans', sans-serif;
+  width: 80%;
+  font-size: 1.3em;
+  line-height:1.5em;
+  
   
 }
 
@@ -432,15 +437,17 @@ border-radius: 5px;
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
     min-height: 32em;
+    line-height:1.5em;
     
   
 }
 
 .instrutores-container p{
   
-  margin: 0 2em;
+  margin: 0 3em;
     text-align: left;
-    width: 100%;
+    width: 80%;
+    font-size:1.1em;
   
 }
 
