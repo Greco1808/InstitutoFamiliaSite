@@ -1,3 +1,17 @@
+.desaparece{
+  
+ display:active;
+}
+
+.titulo_disciplina{
+  
+  display:none;
+  
+}
+
+
+
+
 html{
   scroll-behavior: smooth;
 }
