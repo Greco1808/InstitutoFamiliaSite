@@ -3,6 +3,10 @@
  display:active;
 }
 
+.target{
+  
+  display:none;
+}
 .titulo_disciplina{
   
   display:none;
