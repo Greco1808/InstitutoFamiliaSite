@@ -47,6 +47,29 @@ slides[index].style.display = "block"
   
 }
 
+var collapse = document.getElementsByClassName("collapsible");
+var i = 0
+
+  for(i =0 ; i < collapse.length ; i++){
+  
+    collapse[i].addEventListener("click", function(){ 
+    var content = this.nextElementSibling
+    console.log(content)
+    //this.classList.toggle("active")
+    if(content.style.display === "block"){
+    content.style.display="none"
+    }else{
+      content.style.display="block"
+ }
+      })
+ 
+  }
+  
+  
+  
+  
+
+
 
 //function avancaChamada(){
   
