@@ -298,14 +298,13 @@ flex-wrap:wrap;
 .collapsible{
  
   box-sizing: border-box;
-  border: 1px solid black;
-  padding: 1em;
-  margin: 0;
-  background-color: #44525a;
-  color: white;
-  font-size: 1.5em;
-  margin: 1em 0;
-  font-family: 'Open Sans';
+    padding: 1em;
+    margin: 0;
+    background-color: #44525a;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Open Sans';
+    margin-top: 1em;
   
 }
 
@@ -315,6 +314,10 @@ flex-wrap:wrap;
   list-style-type: none;
   line-height: 2em;
   font-size: 1.5em;
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #F1F2EE;
+  padding-left: 1em;
 }
 
 
