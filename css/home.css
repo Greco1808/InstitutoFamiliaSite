@@ -317,9 +317,16 @@ flex-wrap:wrap;
   box-sizing: border-box;
   margin: 0;
   background-color: #F1F2EE;
-  padding-left: 1em;
+  padding: 1em;
+  font-family: 'Open Sans';
 }
 
+.target span{
+  
+  font-weight: bold;
+  text-transform: uppercase;
+  
+}
 
 .cursos_imagem_container{
 
