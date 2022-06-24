@@ -21,7 +21,7 @@ html{
 }
 
 h1{
-  
+
     font-size: 35px;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
@@ -298,6 +298,18 @@ flex-wrap:wrap;
   
 }
 
+.collapsible{
+ 
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 1em;
+  margin: 0;
+  background-color: #44525a;
+  color: white;
+  font-size: 1.5em;
+  margin: 1em 0;
+  
+}
 
 .cursos_imagem_container{
 
@@ -328,7 +340,7 @@ border-radius: 5px;
 .descricao_curso  h2{
 
   text-align: center;
-  margin-top: 2rem;
+  margin: 2em 0;
   font-size: 30px;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
