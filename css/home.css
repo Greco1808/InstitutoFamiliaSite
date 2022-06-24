@@ -3,10 +3,7 @@
  display:active;
 }
 
-.target{
-  
-  display:none;
-}
+
 .titulo_disciplina{
   
   display:none;
@@ -308,8 +305,18 @@ flex-wrap:wrap;
   color: white;
   font-size: 1.5em;
   margin: 1em 0;
+  font-family: 'Open Sans';
   
 }
+
+.target{
+  
+  display:none;
+  list-style-type: none;
+  line-height: 2em;
+  font-size: 1.5em;
+}
+
 
 .cursos_imagem_container{
 
