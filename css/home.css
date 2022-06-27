@@ -635,6 +635,7 @@
   flex: 0 1 450px;
   margin: 3em 2em;
   padding-bottom: 2rem;
+  max-height:13em;
  
  
    
@@ -669,11 +670,15 @@
    width:7rem;
    height:7rem;
    border-radius:100%;
-   position:absolute;
    top:-25%;
    left:40%;
    object-fit: cover;
  }
+
+.depoimentos-container figure{
+  
+  display:flex;
+}
  
  .fotos-container{
    display:  grid;
