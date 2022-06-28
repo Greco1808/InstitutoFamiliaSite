@@ -474,11 +474,6 @@
    
  }
 
-.presidente figure:hover{
-
-  transform:scale(1.05);
-  transition: transform 500ms;
-}
   
  
  .presidente article{
