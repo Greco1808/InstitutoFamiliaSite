@@ -636,9 +636,52 @@
   margin: 3em 2em;
   padding-bottom: 2rem;
   max-height:13em;
+  display:flex;
+  flex-direction:column;
+  max-height:20em;
  
  
    
+ }
+
+.depoimentos-container figure{
+  
+  display:flex;
+  margin:1em 0 0 1.5em;
+  align-items:center;
+}
+
+.depoimentos-container article{
+  
+  overflow-y:scroll;
+  
+}
+
+ #texto-depoimento{
+   color:black;
+   text-align:justify;
+   font-style:italic;
+   margin:1em;
+  font-family: 'Open Sans';
+   
+ }
+ 
+ #autor-depoimento{
+   color:black;
+   font-weight:bold;
+   text-align:center;
+   margin-left:2em;
+   font-family: 'Open Sans';
+   font-size: 1.2em;
+ }
+ 
+ .foto{
+   width:7rem;
+   height:7rem;
+   border-radius:100%;
+   top:-25%;
+   left:40%;
+   object-fit: cover;
  }
  
  .video_container{
@@ -652,33 +695,9 @@
  }
 
 
- #texto-depoimento{
-   color:black;
-   margin:15% 10% 2% 10%;
-   text-align:justify;
-   font-style:italic;
-   
- }
- 
- #autor-depoimento{
-   color:black;
-   font-weight:bold;
-   text-align:center;
- }
- 
- .foto{
-   width:7rem;
-   height:7rem;
-   border-radius:100%;
-   top:-25%;
-   left:40%;
-   object-fit: cover;
- }
 
-.depoimentos-container figure{
-  
-  display:flex;
-}
+
+
  
  .fotos-container{
    display:  grid;
