@@ -475,12 +475,7 @@
    
  }
 
-.presidente figure:hover{
-  
-  transform:scale(1.05);
-  transition:transform 500ms;
-  
-}
+
  .presidente article{
    
    font-family: 'Open Sans', sans-serif;
@@ -557,6 +552,13 @@
  box-shadow: 1px 1px 5px black;
  padding-bottom: 0.3em;
  }
+
+.img-instrutor:hover{
+  
+  transform:scale(1.05);
+  transition:transform 500ms;
+  
+}
 
 
  
