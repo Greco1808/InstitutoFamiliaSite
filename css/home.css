@@ -469,17 +469,17 @@
  
  .presidente figure{
    
-   width: 50%;
+   
    height:30em;
    
  }
 
 .presidente figure:hover{
 
-  height:32em;
-  transition: 1s height;
+  transform:scale(1.05);
+  transition: transform 500ms;
 }
-
+  
  
  .presidente article{
    
@@ -557,7 +557,12 @@
  box-shadow: 1px 1px 5px black;
  padding-bottom: 0.3em;
  }
+
+.img-instrutor:hover{
  
+transform:  scale(1.05);
+transition: transform 500ms;
+}
  
  
  .descricao-instrutor{
@@ -716,7 +721,7 @@
  }
 
 
-
+/* Início da sessão das Fotos */
 
 
  
