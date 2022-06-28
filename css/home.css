@@ -473,6 +473,13 @@
    height:30em;
    
  }
+
+.presidente figure:hover{
+
+  height:32em;
+  transition: 1s height;
+}
+
  
  .presidente article{
    
