@@ -638,7 +638,8 @@
   max-height:13em;
   display:flex;
   flex-direction:column;
-  max-height:20em;
+  max-height:18em;
+  min-height:18em;
  
  
    
