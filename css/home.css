@@ -553,11 +553,7 @@
  padding-bottom: 0.3em;
  }
 
-.img-instrutor:hover{
- 
-transform:  scale(1.05);
-transition: transform 500ms;
-}
+
  
  
  .descricao-instrutor{
