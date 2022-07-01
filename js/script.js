@@ -65,7 +65,51 @@ var i = 0
  
   }
   
+//script para girar o carrossel do snap align
+
+var index =0
+var n;
+var classe;
+
+
+function avanca(n,classe){
+ 
+  controlaSlide(index += n,classe)
+    //controlaSlide(classe)
+    console.log(classe)
+    console.log(n)
   
+  
+}
+
+
+
+
+function controlaSlide(n,classe){
+    
+
+
+  var slides = document.getElementsByClassName(classe)
+  
+  
+  
+  
+  if(index >= slides.length){
+    index = 0;
+  }
+  
+  if(index < 0){
+    index = slides.length - 1;
+  }
+  
+ var count = slides[index]
+ console.log(slides)
+   
+ 
+ count.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })
+  console.log(slides)
+}
+
   
   
 
