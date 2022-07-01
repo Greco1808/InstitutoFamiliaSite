@@ -66,10 +66,52 @@ var i = 0
   }
   
 
+//script para girar o carrossel do snap align
 
+var indice =0
+var y;
+var classe;
+
+
+function avancaSnap(y,classe){
+ 
+  controlaSnap(indice += y,classe)
+    //controlaSlide(classe)
+    console.log(classe)
+    console.log(y)
   
   
+  
+}
 
+
+
+
+function controlaSnap(y,classe){
+    
+
+
+  var slides = document.getElementsByClassName(classe)
+  
+  
+  
+  
+  if(indice >= slides.length){
+    indice = 0;
+  }
+  
+  if(indice < 0){
+    indice = slides.length - 1;
+  }
+  
+ var count = slides[indice]
+ console.log(slides)
+   
+ 
+ count.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })
+  console.log(slides)
+}
+  
 
 
 //function avancaChamada(){
