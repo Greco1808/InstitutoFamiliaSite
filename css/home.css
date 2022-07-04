@@ -894,7 +894,7 @@
    #container_controle_esquerda, #container_controle_direita, #container_controle_direita_video , #container_controle_esquerda_video{
     
     position:absolute;
-    padding:10px;
+    padding:17px;
     background:#6d6f7f;
     cursor:pointer;
     
@@ -903,7 +903,8 @@
    
    #container_controle_direita_video,  #container_controle_esquerda_video{
     
-     top:80%;
+    top: 75%;
+    z-index: 1;
      
    }
    
@@ -920,7 +921,7 @@
 
 #container_controle_direita, #container_controle_esquerda{
     
-    top:65%;
+    top:27%;
 }
 
    #container_controle_direita{
@@ -1030,7 +1031,7 @@
      
      width:100vh;
      height:100%;
-   
+     position:absolute;
  }
    
    .depoimentos_grid{
@@ -1039,6 +1040,7 @@
      overflow:auto;
      position:relative;
      display:flex;
+     
      
    }
    
@@ -1050,7 +1052,8 @@
      font-size: 1.8em;
      margin: 5rem 0;
      scroll-snap-align: start;
-    min-width: 100%;
+    min-width: 95%;
+     margin:0 auto;
      
    }
    
