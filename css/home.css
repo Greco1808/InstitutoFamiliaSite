@@ -994,6 +994,7 @@
      scroll-snap-type:x mandatory;
      overflow:auto;
      position:relative;
+     display:flex;
      
    }
    
