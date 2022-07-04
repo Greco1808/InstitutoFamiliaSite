@@ -891,27 +891,47 @@
    margin-top: 50vw;
  }
    
-   #container_controle_esquerda, #container_controle_direita{
+   #container_controle_esquerda, #container_controle_direita, #container_controle_direita_video , #container_controle_esquerda_video{
     
     position:absolute;
-    top:65%;
     padding:10px;
     background:#6d6f7f;
+    cursor:pointer;
     
     
 }
+   
+   #container_controle_direita_video,  #container_controle_esquerda_video{
+    
+     top:80%;
+     
+   }
+   
+   #container_controle_direita_video{
+    
+     left:0;
+   }
+   
+   #container_controle_esquerda_video{
+     
+     right:0;
+     
+   }
 
-#container_controle_direita{
+#container_controle_direita, #container_controle_esquerda{
     
-    left:0;
-    
-    
+    top:65%;
 }
 
+   #container_controle_direita{
+    
+     left:0;
+   }
+   
+   
 #container_controle_esquerda{
     
     right:0;
-    cursor: pointer;
     
 }
    
