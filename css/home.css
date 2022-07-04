@@ -891,6 +891,30 @@
    margin-top: 50vw;
  }
    
+   #container_controle_esquerda, #container_controle_direita{
+    
+    position:absolute;
+    top:65%;
+    padding:10px;
+    background:#6d6f7f;
+    
+    
+}
+
+#container_controle_direita{
+    
+    left:0;
+    
+    
+}
+
+#container_controle_esquerda{
+    
+    right:0;
+    cursor: pointer;
+    
+}
+   
    .Slides{
      
      height:130vh;
