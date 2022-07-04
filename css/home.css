@@ -1010,6 +1010,16 @@
      
    }
    
+   .video_container{
+   
+     scroll-snap-type:x mandatory;
+     overflow:auto;
+     position:relative;
+     display:flex;
+     
+   }
+   
+   
    #texto-depoimento{
     
      margin:8% 10% 2% 10%;
