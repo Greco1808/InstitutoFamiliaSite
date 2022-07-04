@@ -989,13 +989,23 @@
    
  }
    
+   .depoimentos_grid{
+    
+     scroll-snap-type:x mandatory;
+     overflow:auto;
+     position:relative;
+     
+   }
+   
+   
+   
    .depoimentos-container{
-     height:fit-content;
      padding-bottom:5px;
-     width:90vh;
      padding-bottom: 2rem;
      font-size: 1.8em;
      margin: 5rem 0;
+     scroll-snap-align: start;
+    min-width: 100%;
      
    }
    
