@@ -1031,7 +1031,7 @@
      
      width:100vh;
      height:100%;
-     position:absolute;
+     position:relative;
  }
    
    .depoimentos_grid{
