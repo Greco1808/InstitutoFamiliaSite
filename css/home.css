@@ -1067,21 +1067,38 @@
    
    .video_container{
    
-     scroll-snap-type:x mandatory;
-     overflow:auto;
-     position:relative;
-     display:flex;
+    scroll-snap-type: x mandatory;
+    overflow: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0 1em;
      
    }
    
    .video_depoimento {
     object-fit: cover;
     scroll-snap-align: center;
-    min-width: 100%;
+    min-width: 67%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 5px 5px 5px black;
       
       
+   }
+   
+   .video_depoimento h3{
+     
+     font-family: 'Open Sans';
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 1em;
+     
    }
 
    
