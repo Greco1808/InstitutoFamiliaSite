@@ -1076,10 +1076,9 @@
    
    .video_depoimento {
       object-fit: cover;
-      min-height: 25em;
       scroll-snap-align: center;
-      min-width: 65%;
-      margin: 0 7em;
+      min-width: 100%;
+      
    }
 
    
