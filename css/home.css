@@ -903,8 +903,11 @@
     
     position:absolute;
     padding:17px;
-    background:#6d6f7f;
     cursor:pointer;
+     background: rgba(255, 255, 255, 0.67);
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(6.9px);
+}
     
     
 }
@@ -1062,6 +1065,9 @@
      scroll-snap-align: center;
     min-width: 95%;
      margin:0 1em;
+     background:none;
+     box-shadow:none;
+     
      
    }
    
@@ -1105,6 +1111,13 @@
    #texto-depoimento{
     
      margin:8% 10% 2% 10%;
+     color:white;
+   }
+   
+   #autor-depoimento{
+     
+     color:white;
+     
    }
    
    .foto{
