@@ -1079,7 +1079,7 @@
    .video_depoimento {
     object-fit: cover;
     scroll-snap-align: center;
-    min-width: 67%;
+    min-width: 67vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
