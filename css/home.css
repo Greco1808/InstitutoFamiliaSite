@@ -718,6 +718,14 @@
     padding-bottom: 3em;
  }
 
+video_depoimento{
+
+    object-fit: cover;
+    min-height: 25em;
+  
+}
+
+
 
 /* Início da sessão das Fotos */
 
