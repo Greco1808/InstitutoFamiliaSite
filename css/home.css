@@ -1018,7 +1018,7 @@
      
    }
    
-   .instrutores{
+   .instrutores-master{
      
     display: flex;
     scroll-snap-type: x mandatory;
