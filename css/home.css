@@ -1035,6 +1035,13 @@
      
    }
    
+   .img-instrutor{
+     
+    width: 90%;
+    height: 29rem;
+     
+   }
+   
    .presidente{
      
      grid-column:1/3;
