@@ -1020,8 +1020,18 @@
    
    .instrutores{
      
-     grid-template-columns:auto auto;
-     width:100vh;
+    display: flex;
+    scroll-snap-type: x mandatory;
+    position: relative;
+    overflow: auto;
+     
+   }
+   
+   .instrutores-container{
+    
+    margin: 0 6em;
+    min-width: 70%;
+    scroll-snap-align: center;
      
    }
    
