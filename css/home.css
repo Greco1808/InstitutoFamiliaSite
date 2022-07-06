@@ -1035,6 +1035,25 @@
      
    }
    
+   .instrutores-container p{
+     
+     width:100%;
+     line-height:1.5em;
+     font-size:1.6em;
+     text-align:center;
+     
+   }
+   
+   .instrutores-container h2{
+    
+     margin:1em 0;
+     font-size:2em;
+   }
+   
+   
+   
+   
+   
    .img-instrutor{
      
     width: 90%;
@@ -1043,9 +1062,8 @@
    }
    
    .presidente{
-     
-     grid-column:1/3;
-     display: flex;
+      
+    display: flex;
     margin: 3em 0;
     flex-direction: column;
     align-items: center;
@@ -1063,6 +1081,13 @@
    .presidente article{
      
      width: 100%;
+     font-size:1.7em;
+   }
+   
+   .presidente p{
+    
+     margin:2em;
+     text-align:center;
      
    }
    
