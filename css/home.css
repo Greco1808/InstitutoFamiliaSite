@@ -451,7 +451,7 @@
  
  /* Início da sessão dos Instrutores */
  
- .instrutores{
+ .instrutores-master{
    
    display: grid;
    grid-template-columns: 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr;
