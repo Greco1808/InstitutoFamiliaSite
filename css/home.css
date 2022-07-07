@@ -1005,8 +1005,14 @@
    .cursos_container{
    flex-direction:column;
    flex-wrap:nowrap;
-   height:170vh;
+   
  }
+   
+   .target{
+     
+     font-size:1.2em;
+     
+   }
    
    .descricao_curso{
      width:auto;
