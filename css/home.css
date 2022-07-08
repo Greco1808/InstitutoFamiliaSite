@@ -886,6 +886,14 @@
   
  }
    
+   nav{
+     
+     margin-top:1em;
+     
+   }
+   
+   
+   
  
  
    h1{
@@ -896,7 +904,7 @@
    
  .master{
  
-   margin-top: 50vw;
+   margin-top: 19vw;
  }
    
    #container_controle_esquerda, #container_controle_direita, #container_controle_direita_video , #container_controle_esquerda_video{
@@ -950,13 +958,50 @@
    .Slides{
      
      height:130vh;
+     position:relative;
+     
+   }
+   
+   #logo{
+   
+     padding: 0.5rem;    
+    position: absolute;
+    left: 33%;
+    top: 7%;
+    width:35%;
+   }
+   
+   #chamada_1{
+     top:40%;
+     
+   }
+   
+   #chamada_teste{
+    
+     position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    color: #ffbe40;
+    font-size: 45px;
+    text-transform: uppercase;
+    left: 2%;
+    top: 46%;
+   }
+   
+   .saibaMais{
+     
+     left:38%;
+   }
+   
+   .next, .previous{
+     
+     display:none;
      
    }
    
    .cabecalho{
    
    flex-direction:column;
-   height: 50vw;
+   height: 19vw;
    flex-wrap:nowrap;
    }
  
