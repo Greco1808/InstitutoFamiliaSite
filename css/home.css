@@ -1208,8 +1208,8 @@
    .imagens{
      
     scroll-snap-align: start;
-    height: 100%;
-     
+    height: 60vh;
+    background-color:white;
    }
    
    .form, .form_mensagem, .enviar{
