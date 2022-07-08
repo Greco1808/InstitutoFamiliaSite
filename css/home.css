@@ -886,12 +886,15 @@
   
  }
    
-   nav{
+   #navegacao{
      
      margin-top:1em;
      
    }
    
+   #banner_principal{
+     
+     filter:brightness(0.5);
    
    
  
