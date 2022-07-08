@@ -1192,7 +1192,24 @@
    
    margin:auto;
    width:100vh;
-   grid-template-columns:auto auto auto;
+   display:flex;
+   scroll-snap-type:x mandatory;
+   position:relative;
+   overflow:auto;
+   
+   }
+   
+   .img{
+     
+     width:100vw;
+     height:60vh;
+   }
+   
+   .imagens{
+     
+    scroll-snap-align: start;
+    height: 100%;
+     
    }
    
    .form, .form_mensagem, .enviar{
