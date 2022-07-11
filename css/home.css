@@ -203,14 +203,14 @@
  .saibaMais{
    
    box-sizing:border-box;
-   color:#285861;
+   color:#F1F7ED;
    position:absolute;
    border-radius:8px;
    padding:1rem 2rem;
    cursor:pointer;
    top:80%;
    left:42%;
-   background:#e5aa15;
+   background:#285861;
    text-transform:uppercase;
    opacity:0.9;
    font-size: 1.5em;
