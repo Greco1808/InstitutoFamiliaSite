@@ -1013,7 +1013,7 @@
    #chamada_1{
     position: absolute;
     font-family: 'Bebas Neue', cursive;
-    color: #ffbe40;
+    color: white;
     font-size: 45px;
     text-transform: uppercase;
     left: 28%;
@@ -1026,7 +1026,7 @@
     
     position: absolute;
     font-family: 'Bebas Neue', cursive;
-    color: #ffbe40;
+    color: white;
     font-size: 45px;
     text-transform: uppercase;
     margin-top: 1rem;
@@ -1039,6 +1039,7 @@
    .saibaMais{
      
      left:38%;
+     background: #285861;
    }
    
    .next, .previous{
