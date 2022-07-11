@@ -119,7 +119,7 @@
    
  }
  
- #chamada_1, #chamada_2, #chamada_3{
+ #chamada_1{
  
    position: absolute;
    font-family: 'Bebas Neue', cursive;
@@ -128,6 +128,7 @@
    text-transform:  uppercase ;
    left: 5%;
    margin-top: 1rem;
+   top:30%;
  }
  
  #borda_chamada1{
