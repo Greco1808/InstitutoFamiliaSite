@@ -103,6 +103,8 @@
   filter:brightness(0.8);
   
 }
+
+
  
  .teste{
    width:5vw;
@@ -119,7 +121,7 @@
    
  }
  
- #chamada_1{
+ #chamada_1, #chamada_teste{
  
    position: absolute;
    font-family: 'Bebas Neue', cursive;
@@ -128,8 +130,27 @@
    text-transform:  uppercase ;
    left: 5%;
    margin-top: 1rem;
-   top:30%;
+   
  }
+
+#chamada_1{
+  
+  top:30%;
+  left: 35%;
+  
+}
+
+#chamada_teste{
+  
+  left: 10%;
+  top: 53%;
+  text-align: center;
+  
+}
+
+
+
+
  
  #borda_chamada1{
  
