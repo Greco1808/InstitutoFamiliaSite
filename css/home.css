@@ -915,7 +915,7 @@
    font-size:  40px;
  }
  
- @media screen and (max-width:800px){
+ @media screen and (max-width:480px){
   .master, .Slides, .cabecalho, #sobreNos-container, .cursos, footer, h1, .localizacao, .instrutores {
  
    
