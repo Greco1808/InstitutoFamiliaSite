@@ -36,7 +36,7 @@
     top: 0;
     left: 0;
     background: #285861;
-    width: 100%;
+    width: 100vw;
     justify-content: flex-end;
     align-items: center;
    height:4em;
@@ -1372,7 +1372,26 @@
    
    
  }
+
+@media screen and (max-width:1024px)
+  
+  .instrutores_master{
+    
+    display: flex;
+    margin: 0 1em;
+    overflow: auto;
+}
      
+.video_container {
+    
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 3em;
+    display: flex;
+    overflow: auto;
+}
+
+}
  
  
  
