@@ -916,7 +916,7 @@
    font-size:  40px;
  }
 
- #container_controle_esquerda, #container_controle_direita, #container_controle_direita_video , #container_controle_esquerda_video{
+ #container_controle_direita_video , #container_controle_esquerda_video{
     
     position:absolute;
     padding:17px;
@@ -949,20 +949,10 @@
 
 #container_controle_direita, #container_controle_esquerda{
     
-    top:24%;
+    display:none;
 }
 
-   #container_controle_direita{
-    
-     left:0;
-   }
    
-   
-#container_controle_esquerda{
-    
-    right:0;
-    
-}
  
  @media screen and (max-width:480px){
   .master, .Slides, .cabecalho, #sobreNos-container, .cursos, footer, h1, .localizacao, .instrutores {
