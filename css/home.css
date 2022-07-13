@@ -999,7 +999,7 @@
    
    #container_controle_direita_video,  #container_controle_esquerda_video{
     
-    
+    bottom:18%;
     z-index: 1;
      
    }
@@ -1455,6 +1455,11 @@
     width:100%;
   
 }
+  
+  #container_controle_direita_video,  #container_controle_esquerda_video{
+    
+    bottom:11%;
+  }
 }
   
   @media screen and (min-width:1500px){
