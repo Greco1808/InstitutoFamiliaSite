@@ -932,7 +932,7 @@
    
    #container_controle_direita_video,  #container_controle_esquerda_video{
     
-    top: 72%;
+    bottom:14%;
     z-index: 1;
      
    }
