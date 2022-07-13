@@ -753,6 +753,7 @@
     justify-items: center;
     align-items: center;
     padding-bottom: 3em;
+    overflow:auto;
  }
 
 .video_depoimento{
@@ -1388,7 +1389,7 @@
     align-items: center;
     padding-bottom: 3em;
     display: flex;
-    overflow: auto;
+    
 }
 
   .depoimentos_grid {
