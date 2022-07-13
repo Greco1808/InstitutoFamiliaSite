@@ -915,6 +915,54 @@
    padding:  0 5px 0 11px;
    font-size:  40px;
  }
+
+ #container_controle_esquerda, #container_controle_direita, #container_controle_direita_video , #container_controle_esquerda_video{
+    
+    position:absolute;
+    padding:17px;
+    cursor:pointer;
+     background: rgba(255, 255, 255, 0.67);
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(6.9px);
+}
+    
+    
+
+   
+   #container_controle_direita_video,  #container_controle_esquerda_video{
+    
+    top: 72%;
+    z-index: 1;
+     
+   }
+   
+   #container_controle_direita_video{
+    
+     left:0;
+   }
+   
+   #container_controle_esquerda_video{
+     
+     right:0;
+     
+   }
+
+#container_controle_direita, #container_controle_esquerda{
+    
+    top:24%;
+}
+
+   #container_controle_direita{
+    
+     left:0;
+   }
+   
+   
+#container_controle_esquerda{
+    
+    right:0;
+    
+}
  
  @media screen and (max-width:480px){
   .master, .Slides, .cabecalho, #sobreNos-container, .cursos, footer, h1, .localizacao, .instrutores {
