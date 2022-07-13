@@ -1459,7 +1459,7 @@
   
   @media screen and (min-width:1500px){
     
-    #container_controle_direita, #container_controle_esquerda{
+    #container_controle_direita_video,  #container_controle_esquerda_video{
     
     display:none;
 }
