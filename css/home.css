@@ -136,7 +136,9 @@
 #chamada_1{
   
   top:30%;
-  left: 35%;
+  left: 50%;
+  transform:translate(-50%, 0);
+  width:15em;
   
 }
 
