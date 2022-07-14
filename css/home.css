@@ -214,7 +214,7 @@
    cursor:pointer;
    top:80%;
    left:50%;
-   transform:translate(-50%, 0)
+   transform:translate(-50%, 0);
    background:#285861;
    text-transform:uppercase;
    opacity:0.9;
