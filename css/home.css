@@ -952,7 +952,7 @@
 
    
  
- @media screen and (max-width:480px){
+ @media screen and (max-width:600px){
   .master, .Slides, .cabecalho, #sobreNos-container, .cursos, footer, h1, .localizacao, .instrutores {
  
    
@@ -1410,7 +1410,7 @@
    
  }
 
-@media screen and (min-width:500px) and (max-width:1024px){
+@media screen and (min-width:600px) and (max-width:1024px){
   
   
   .instrutores-master{
