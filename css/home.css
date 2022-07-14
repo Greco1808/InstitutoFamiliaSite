@@ -213,7 +213,8 @@
    padding:1rem 2rem;
    cursor:pointer;
    top:80%;
-   left:42%;
+   left:50%;
+   transform:translate(-50%, 0)
    background:#285861;
    text-transform:uppercase;
    opacity:0.9;
