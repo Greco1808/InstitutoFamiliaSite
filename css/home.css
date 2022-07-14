@@ -138,15 +138,17 @@
   top:30%;
   left: 50%;
   transform:translate(-50%, 0);
-  width:15em;
+  
   
 }
 
 #chamada_teste{
   
-  left: 10%;
   top: 53%;
   text-align: center;
+  left: 50%;
+  transform:translate(-50%, 0);
+  width:15em;
   
 }
 
