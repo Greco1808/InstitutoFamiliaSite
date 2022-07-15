@@ -726,8 +726,7 @@
 
  #texto-depoimento{
    color:black;
-   text-align:justify;
-   font-style:italic;
+   text-align:left;
    margin:1em;
   font-family: 'Open Sans';
    
