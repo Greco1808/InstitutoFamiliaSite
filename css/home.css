@@ -771,6 +771,10 @@
 .video_depoimento h3{
   
   color:white;
+   font-family: 'Open Sans';
+   font-size: 1.5em;
+    font-weight: bold;
+    margin: 1em 0;
   
 }
 
@@ -1305,15 +1309,7 @@
       
    }
    
-   .video_depoimento h3{
-     
-     font-family: 'Open Sans';
-    font-size: 1.5em;
-    color: black;
-    font-weight: bold;
-    margin: 1em 0;
-     
-   }
+ 
 
    
    #texto-depoimento{
