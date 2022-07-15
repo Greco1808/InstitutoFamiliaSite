@@ -1059,7 +1059,8 @@
     color: #F1F7ED;
     font-size: 45px;
     text-transform: uppercase;
-    left: 28%;
+    left: 50%;
+    transform:translate(-50%, 0)
     margin-top: 1rem;
     top: 34%;
      
@@ -1074,14 +1075,15 @@
     text-transform: uppercase;
     margin-top: 1rem;
     top: 53%;
-    left:2%;
-    
+    left: 50%;
+    transform:translate(-50%, 0)
     
    }
    
    .saibaMais{
      
-     left:38%;
+     left: 50%;
+     transform:translate(-50%, 0)
      background: #285861;
      color:#F1F7ED;
    }
