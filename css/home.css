@@ -1133,6 +1133,7 @@
     
      width:100vw;
      height:60vh;
+     margin:0;
      
    }
    
@@ -1140,12 +1141,13 @@
      
      width:100vw;
      height:100vh;
-     margin:0 auto;
+     
  }
    
    .cursos_container{
    flex-direction:column;
    flex-wrap:nowrap;
+   align-items:center;
    
  }
    
