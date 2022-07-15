@@ -1288,14 +1288,13 @@
    .video_depoimento {
     object-fit: cover;
     scroll-snap-align: center;
-    min-width: 67vh;
+    min-width: 56vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     border-radius: 8px;
-    background: white;
-    box-shadow: 5px 5px 5px black;
+    
       
       
    }
