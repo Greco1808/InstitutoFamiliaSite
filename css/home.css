@@ -947,8 +947,7 @@
    
    #container_controle_direita_video,  #container_controle_esquerda_video{
     
-    bottom:50%;
-    transform:translate(0, 50%);
+    bottom:14%;
     z-index: 1;
      
    }
@@ -1010,7 +1009,12 @@
     backdrop-filter: blur(6.9px);
 }
     
+    #container_controle_direita_video,  #container_controle_esquerda_video{
     
+    bottom:25%;
+    z-index: 1;
+     
+   }
 
    
    
@@ -1463,6 +1467,13 @@
     width:100%;
   
 }
+  
+    #container_controle_direita_video,  #container_controle_esquerda_video{
+    
+    bottom:8%;
+    z-index: 1;
+     
+   }
   
   
 }
