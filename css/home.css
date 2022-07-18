@@ -1480,6 +1480,12 @@
     min-height: 14em;
   }
   
+  
+  .endereco_container {
+    width: 100vw;
+    margin: 1em;
+}
+  
 }
 
 
