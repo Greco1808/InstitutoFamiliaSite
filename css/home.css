@@ -1475,6 +1475,10 @@
      
    }
   
+  .depoimentos-container {
+    
+    min-height: 14em;
+  }
   
 }
 
