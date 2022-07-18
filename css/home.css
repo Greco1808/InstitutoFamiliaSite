@@ -759,6 +759,7 @@
     align-items: center;
     padding-bottom: 3em;
     overflow:auto;
+    position:relative;
  }
 
 .video_depoimento{
@@ -946,7 +947,8 @@
    
    #container_controle_direita_video,  #container_controle_esquerda_video{
     
-    bottom:14%;
+    bottom:50%;
+    transform:translate(0, 50%);
     z-index: 1;
      
    }
@@ -1011,12 +1013,6 @@
     
 
    
-   #container_controle_direita_video,  #container_controle_esquerda_video{
-    
-    bottom:25%;
-    z-index: 1;
-     
-   }
    
    #container_controle_direita_video{
     
@@ -1287,7 +1283,6 @@
    
     scroll-snap-type: x mandatory;
     overflow: auto;
-    position: relative;
     display: flex;
     align-items: center;
     margin: 0 1em;
@@ -1469,10 +1464,7 @@
   
 }
   
-  #container_controle_direita_video,  #container_controle_esquerda_video{
-    
-    bottom:11%;
-  }
+  
 }
 
 
