@@ -1420,7 +1420,17 @@
    
  }
 
-@media screen and (min-width:600px) and (max-width:1024px){
+@media screen and (min-width:600px) and (max-width:700px){
+  
+  .depoimentos_grid {
+  
+   grid-template-columns:1fr;
+    
+  }
+  
+}
+
+@media screen and (min-width:700px) and (max-width:1024px){
   
   
   .instrutores-master{
@@ -1441,7 +1451,7 @@
 
   .depoimentos_grid {
   
-   grid-template-columns:1fr;
+   grid-template-columns:1fr 1fr;
     
   }
   
