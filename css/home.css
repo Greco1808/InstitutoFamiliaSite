@@ -1475,15 +1475,7 @@
   }
 }
 
-@media screen and (min-width:600px) and (max-width:700px){
-  
-  .depoimentos_grid {
-  
-   grid-template-columns:1fr;
-    
-  }
-  
-}
+
   
   @media screen and (min-width:1500px){
     
