@@ -983,7 +983,7 @@
    
    #container_controle_esquerda, #container_controle_direita{
   
-  display:active;
+  display:block;
   
 }
    
