@@ -1486,6 +1486,11 @@
     margin: 1em;
 }
   
+  .instrutores-container {
+    
+    min-width: 20em;
+}
+  
 }
 
 
