@@ -9,7 +9,7 @@ function scroll(x){
   
   var alturaCalculada = alturaTela - x
   
-  window.scrollTo(0, alturaCalculada)
+  window.scrollBy(0, alturaCalculada)
   
 }
 
