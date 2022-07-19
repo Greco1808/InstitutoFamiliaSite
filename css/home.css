@@ -981,6 +981,12 @@
   
  }
    
+   #container_controle_esquerda, #container_controle_direita{
+  
+  display:active;
+  
+}
+   
    #navegacao{
      
      margin-top:1em;
