@@ -963,6 +963,12 @@
      
    }
 
+#container_controle_esquerda, #container_controle_direita{
+  
+  display:none;
+  
+}
+
 
 
    
@@ -1007,6 +1013,7 @@
      background: rgba(255, 255, 255, 0.67);
     box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
     backdrop-filter: blur(6.9px);
+    
 }
     
     #container_controle_direita_video,  #container_controle_esquerda_video{
