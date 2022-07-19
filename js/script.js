@@ -1,13 +1,15 @@
 var slides =document.getElementsByClassName("Slides")
 var button = document.querySelector('.next')
-let height = window.innerHeight;
+let alturaTela = window.innerHeight;
 
 
 //var chamada = document.getElementsByClassName("borda_chamada")
 
 function scroll(x){
   
-  window.scrollTo(0, height - x)
+  var alturaCalculada = alturaTela - x
+  
+  window.scrollTo(0, alturaCalculada)
   
 }
 
