@@ -398,6 +398,32 @@
  
  
  }
+
+.cursos_rapidos_container{
+  
+  display: grid;
+  grid-template-columns: auto auto auto;
+  
+}
+
+.cursos_imagem_container_rapido{
+  
+  width: 35%;
+  height: 25em;
+  flex: 1 1 500px;
+  
+}
+
+.cursos_img_rapido{
+  
+  width: 90%;
+  height: 98%;
+  object-fit: cover;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  border-radius: 5px;
+}
+
  
  .descricao_curso{
  
