@@ -461,7 +461,15 @@
 .detalhes_cursos_rapido{
   
   margin:2em 0;
+  font-family: 'Open Sans';
+  font-size: 1.2em;
   
+}
+
+.detalhes_cursos_rapido span{
+  
+  font-weight: bold;
+  color: #285861;
 }
 
 .detalhes_cursos_rapido h2{
