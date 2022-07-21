@@ -447,26 +447,32 @@
   
 }
 
-.descricao_curso_rapido h2{
+.detalhes_cursos_rapido{
+  
+  margin-bottom:2em;
+  
+}
+
+.detalhes_cursos_rapido h2{
   
   margin-bottom: 2em;
   font-size: 1.5em;
   font-weight: bold;
 }
 
-.descricao_curso_rapido h3{
+.detalhes_cursos_rapido h3{
  
   text-align: left;
   padding-bottom: 1em;
 }
 
-.descricao_curso_rapido h4{
+.detalhes_cursos_rapido h4{
  
   margin-bottom: 5em;
   
 }
 
-.descricao_curso_rapido a{
+.detalhes_cursos_rapido a{
   
     padding: 1em 7em;
     border-radius: 8px;
