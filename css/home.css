@@ -403,6 +403,7 @@
   
   display: grid;
   grid-template-columns: auto auto auto;
+  margin-left:2em;
   
 }
 
@@ -451,7 +452,7 @@
   
   font-family: 'Open Sans';
   margin-bottom: 2em;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: bold;
   
   
@@ -459,7 +460,7 @@
 
 .detalhes_cursos_rapido{
   
-  margin-bottom:2em;
+  margin:2em 0;
   
 }
 
