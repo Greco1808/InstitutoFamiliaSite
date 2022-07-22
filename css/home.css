@@ -1309,15 +1309,14 @@
      
    }
    
-    .cursos_rapido {
    
+   
+   .cursos_rapidos_container {
+    
+    margin-left: 2em;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    width: 100%;
-    margin: 2em 0;
-   
-   }
+}
    
    .cursos_imagem_container_rapido{
     
