@@ -1291,6 +1291,8 @@
    
  }
    
+
+   
    .target{
      
      font-size:1.2em;
@@ -1304,6 +1306,23 @@
    .descricao_curso p{
      
      font-size:30px;
+     
+   }
+   
+    .cursos_rapido {
+   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height 100%: ;
+    margin: 2em 0;
+   
+   }
+   
+   .cursos_imagem_container_rapido{
+    
+     margin:1em auto;
      
    }
    
