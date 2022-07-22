@@ -445,12 +445,13 @@
   font-size: 1.2em;
   text-align: left;
   flex:auto;
+  line-height:1.2em;
   
 }
 
 #chamada_empreendedorismo{
  
-  margin-bottom:0.5em;
+  margin-bottom:1em;
   
   
 }
