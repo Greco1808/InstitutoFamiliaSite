@@ -1325,7 +1325,7 @@
     
 }
    
-   .descricao_curso_rapido, .descricao_curso_rapido {
+   .descricao_curso_rapido, .detalhes_cursos_rapido {
           
     font-size: 1.8em;
     
@@ -1339,7 +1339,7 @@
    
    .detalhes_cursos_rapido a{
      
-     font-size:1em;
+     font-size:1.5em;
    }
 
    
