@@ -1318,11 +1318,30 @@
     flex-direction: column;
 }
    
+   .cursos_rapido h2 {
+     
+    
+    font-size: 2em;
+    
+}
+   
+   .descricao_curso_rapido, .descricao_curso_rapido {
+          
+    font-size: 1.8em;
+    
+}
+   
    .cursos_imagem_container_rapido{
     
      margin:1em auto;
      
    }
+   
+   .detalhes_cursos_rapido a{
+     
+     font-size:1em;
+   }
+
    
    .instrutores-master{
      
