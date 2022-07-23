@@ -1657,7 +1657,25 @@
     min-width: 20em;
 }
   
+  .cursos_rapidos_container {
+    grid-template-columns: auto auto;
+    
+  
 }
+  
+  .cursos_rapido {
+    
+    width:92%;
+    
+  }
+.detalhes_cursos_rapido a{
+  
+  font-size: 0.7em;
+  
+  }
+  
+}
+
 
 
   
