@@ -1674,6 +1674,11 @@
   padding:1em 5em;
   }
   
+  .localizacao_container {
+    
+    justify-content: flex-start;
+}
+  
 }
 
 
