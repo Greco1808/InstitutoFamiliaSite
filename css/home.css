@@ -1084,21 +1084,8 @@
   display:none;
   
 }
-
-@media screen and (max-width:320px){
-  
-  .master, .Slides, .cabecalho, #sobreNos-container, .cursos, footer, h1, .localizacao, .instrutores, .depoimentos, .fotos-container {
  
-   
-   width: 119vh;
-  
- }
-  
-}
-
-   
- 
- @media screen and (min-width:321px) and (max-width:600px){
+ @media screen and (max-width:600px){
   .master, .Slides, .cabecalho, #sobreNos-container, .cursos, footer, h1, .localizacao, .instrutores {
  
    
