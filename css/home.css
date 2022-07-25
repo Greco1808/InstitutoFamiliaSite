@@ -1679,6 +1679,11 @@
     justify-content: flex-start;
 }
   
+  .localizacao_container iframe{
+   
+    margin-left:1em;
+  }
+  
 }
 
 
