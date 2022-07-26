@@ -1086,12 +1086,7 @@
 }
  
  @media screen and (max-width:600px){
-  .master, .Slides, .cabecalho, #sobreNos-container, .cursos, footer, h1, .localizacao, .instrutores {
- 
-   
-   width: 100vh;
   
- }
    
    #container_controle_esquerda, #container_controle_direita{
   
@@ -1114,7 +1109,7 @@
  
    h1{
     
-     font-size:45px;
+     font-size:1.7em;
      
    }
    
@@ -1173,7 +1168,7 @@
    
    .Slides{
      
-     height:130vh;
+     height:80vh;
      position:relative;
      
    }
@@ -1191,7 +1186,7 @@
     position: absolute;
     font-family: 'Bebas Neue', cursive;
     color: #F1F7ED;
-    font-size: 45px;
+    font-size: 1.5em;
     text-transform: uppercase;
     left: 50%;
     transform:translate(-50%, 0)
@@ -1205,7 +1200,7 @@
     position: absolute;
     font-family: 'Bebas Neue', cursive;
     color: #F1F7ED;
-    font-size: 45px;
+    font-size: 1.5em;
     text-transform: uppercase;
     margin-top: 1rem;
     top: 53%;
@@ -1220,6 +1215,8 @@
      transform:translate(-50%, 0)
      background: #285861;
      color:#F1F7ED;
+     font-size: 1em;
+     padding: 0.7em 1.7em;
    }
    
    .next, .previous{
@@ -1240,7 +1237,7 @@
      justify-content: center;
      margin: 0 auto;
      padding-bottom: 1rem;
-     font-size:35px;
+     font-size:1.3em;
    }
    
    #sobreNos-container{
@@ -1253,28 +1250,28 @@
    .sobreNos{
      flex-direction:column;
      height:fit-content;
-     margin:4rem 2rem;
+     margin:4em 1em;
     
    }
    
    .sobreNos p{
      
      margin-top: 2rem;
-     font-size:26px;
+     font-size:0.9em;
      text-align:justify;
    }
    .cursos_img{
     
-     width:100vw;
-     height:70vh;
+     width:82vw;
+     height:69vh;
      margin:0;
      
    }
    
    .cursos_imagem_container{
      
-     width:100vw;
-     height:100vh;
+     width:80vw;
+     height:90vh;
      margin:2em 0;
      
  }
@@ -1300,7 +1297,19 @@
    
    .descricao_curso p{
      
-     font-size:30px;
+     font-size:1em;
+     
+   }
+   
+   .descricao_curso h2{
+     
+     font-size: 1.3em;
+     
+   }
+   
+   .descricao_curso h3{
+     
+     font-size: 1.2em;
      
    }
    
