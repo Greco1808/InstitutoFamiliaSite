@@ -1085,6 +1085,10 @@
   
 }
  
+/*início da parte dos media queries*/
+
+
+
  @media screen and (max-width:600px){
   
    
@@ -1283,11 +1287,14 @@
    
  }
    
-
+  .collapsible{
+  
+    font-size: 1em;
+   }
    
    .target{
      
-     font-size:1.2em;
+     font-size:0.8em;
      
    }
    
@@ -1317,7 +1324,6 @@
    
    .cursos_rapidos_container {
     
-    margin-left: 2em;
     display: flex;
     flex-direction: column;
 }
@@ -1325,25 +1331,32 @@
    .cursos_rapido h2 {
      
     
-    font-size: 2em;
+    font-size: 1.1em;
     
 }
    
    .descricao_curso_rapido, .detalhes_cursos_rapido {
           
-    font-size: 1.8em;
+    font-size: 1em;
     
 }
    
    .cursos_imagem_container_rapido{
     
      margin:1em auto;
+     width: 90vw;
+     
+   }
+   
+   .detalhes_cursos_rapido{
+     
+     margin: 2em 1em;
      
    }
    
    .detalhes_cursos_rapido a{
      
-     font-size:0.9em;
+     padding: 1em 6.5em;
    }
 
    
