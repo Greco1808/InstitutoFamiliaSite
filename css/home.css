@@ -1092,6 +1092,10 @@
  @media screen and (max-width:600px){
   
    
+   .cabecalho{
+     
+   }
+   
    #logo_wpp img{
      
      width:70%;
@@ -1104,11 +1108,6 @@
   
 }
    
-   #navegacao{
-     
-     margin-top:1em;
-     
-   }
    
    #banner_principal{
      
@@ -1125,7 +1124,7 @@
    
  .master{
  
-   margin-top: 19vw;
+   margin-top: 4em;
  }
    
    #container_controle_esquerda, #container_controle_direita, #container_controle_direita_video , #container_controle_esquerda_video{
@@ -1238,7 +1237,6 @@
    .cabecalho{
    
    flex-direction:column;
-   height: 19vw;
    flex-wrap:nowrap;
    }
  
