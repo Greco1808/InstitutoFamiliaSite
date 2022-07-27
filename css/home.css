@@ -1125,7 +1125,7 @@
    #container_controle_esquerda, #container_controle_direita, #container_controle_direita_video , #container_controle_esquerda_video{
     
     position:absolute;
-    padding:17px;
+    padding:10px;
     cursor:pointer;
      background: rgba(255, 255, 255, 0.67);
     box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
@@ -1155,7 +1155,7 @@
 
 #container_controle_direita, #container_controle_esquerda{
     
-    top:24%;
+    top:18%;
 }
 
    #container_controle_direita{
@@ -1397,7 +1397,7 @@
      
      width:100%;
      line-height:1.5em;
-     font-size:1.6em;
+     font-size:1em;
      text-align:center;
      
    }
@@ -1405,7 +1405,7 @@
    .instrutores-container h2{
     
      margin:1em 0;
-     font-size:2em;
+     font-size:1.2em;
    }
    
    
@@ -1415,7 +1415,7 @@
    .img-instrutor{
      
     width: 90%;
-    height: 29rem;
+    height: 18em;
      
    }
    
@@ -1430,16 +1430,22 @@
    
    .presidente figure{
    
-   height: 30em;
+   height: 19em;
    margin: 1em;
    width:85%;
+     
+   }
+   
+   .presidente h2{
+     
+     font-size:1.2em;
      
    }
    
    .presidente article{
      
      width: 100%;
-     font-size:1.7em;
+     font-size:1em;
    }
    
    .presidente p{
@@ -1451,7 +1457,6 @@
    
    .depoimentos{
      
-     width:100vh;
      height:100%;
      position:relative;
  }
@@ -1471,7 +1476,7 @@
    
    .depoimentos-container{
      
-     font-size: 1.8em;
+     font-size: 1em;
      margin: 5rem 0;
      scroll-snap-align: center;
     min-width: 95%;
@@ -1526,8 +1531,8 @@
      
      top:-23%;
      left:35%;
-     width: 9rem;
-     height: 9rem;
+     width: 7em;
+     height: 7em;
      
    }
  .fotos-container{
