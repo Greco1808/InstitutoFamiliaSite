@@ -1092,6 +1092,12 @@
  @media screen and (max-width:600px){
   
    
+   #logo_wpp img{
+     
+     width:70%;
+     
+   }
+   
    #container_controle_esquerda, #container_controle_direita{
   
   display:block;
