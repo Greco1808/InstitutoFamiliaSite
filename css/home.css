@@ -1494,7 +1494,6 @@
     display: flex;
     align-items: center;
     margin: 0 1em;
-    padding-bottom:11em;
      
    }
    
@@ -1623,14 +1622,14 @@
      
      display:inline-block;
      margin-bottom:1rem;
-     font-size:1.3em;
-     width:80vh;
+     font-size:1em;
+     width:100%;
      
    }
    
    iframe{
      
-     width:80vh;
+     width:100%;
      
      
    }
