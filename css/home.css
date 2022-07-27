@@ -1140,7 +1140,7 @@
     
     #container_controle_direita_video,  #container_controle_esquerda_video{
     
-    bottom:25%;
+    bottom:20%;
     z-index: 1;
      
    }
@@ -1160,7 +1160,7 @@
 
 #container_controle_direita, #container_controle_esquerda{
     
-    top:18%;
+    top:23%;
 }
 
    #container_controle_direita{
