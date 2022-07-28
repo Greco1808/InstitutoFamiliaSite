@@ -1089,11 +1089,54 @@
 
  @media screen and (min-width:280px) and (max-width:375px){
    
+   .cabecalho {
+    
+    justify-content: center;
+    
+}
+   
    
    .navegacao__header {
     
      font-size: 1em;
 }
+   
+   .Slides {
+    
+    height: 33rem;
+    
+}
+   
+#logo {
+   
+    top: 15%;
+    left: 50%;
+    width: 7em;
+    transform: translate(-50%, 0);
+}
+   
+   #chamada_1, #chamada_teste {
+    
+    font-size: 1.2em;
+    
+}
+   
+  #chamada_1 {
+     
+    top: 35%;
+    
+}
+   
+  .saibaMais {
+    
+    padding: 0.7em;
+    font-size: 0.9em;
+    
+     
+  
+}
+   
+   
    
    
    
