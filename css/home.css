@@ -1087,9 +1087,20 @@
  
 /*início da parte dos media queries*/
 
+ @media screen and (min-width:280px) and (max-width:375px){
+   
+   
+   .navegacao__header {
+    
+     font-size: 1em;
+}
+   
+   
+   
+}
 
 
- @media screen and (max-width:600px){
+ @media screen and (min-width:375px) and (max-width:600px){
   
    
    .cabecalho{
