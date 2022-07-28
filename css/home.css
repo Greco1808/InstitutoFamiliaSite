@@ -1240,7 +1240,7 @@
    
      padding: 0.5rem;    
     position: absolute;
-    left: 33%;
+    left: 50%;
     top: 7%;
     width:35%;
    }
@@ -1298,7 +1298,6 @@
  
      justify-content: center;
      margin: 0 auto;
-     padding-bottom: 1rem;
      font-size:1.3em;
    }
    
