@@ -1243,6 +1243,7 @@
     left: 50%;
     top: 7%;
     width:35%;
+    transform:translate(-50%, 0);
    }
    
    #chamada_1{
@@ -1397,6 +1398,7 @@
    .cursos_rapido{
     
     margin: 2em 0 2em 1em;
+    width:auto;
      
    }
    
