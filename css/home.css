@@ -1239,6 +1239,52 @@
     height: 17em;
     
 }
+   
+   .presidente {
+    
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+   .presidente figure {
+     
+    height: 14em; 
+    
+}
+   
+.presidente h2 {
+    
+    font-size: 1.1em;
+    
+}
+   
+   .presidente article {
+    
+    font-size: 0.9em;
+    
+}
+   
+   presidente p {
+    margin: 2em;
+}
+   .img-instrutor {
+    
+    height: 13em;
+    
+}
+   
+  .instrutores-container h2 {
+    
+    
+    font-size: 1.1em;
+    
+}
+   
+  .instrutores-container p {
+    
+    font-size: 0.9em;
+    width:92%
+}
 }
 
 
