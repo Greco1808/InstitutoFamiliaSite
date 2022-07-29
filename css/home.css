@@ -1223,6 +1223,22 @@
     
     font-size: 0.9em;
 }
+   
+  .detalhes_cursos_rapido a {
+    padding: 1em 5em;
+    
+}
+   
+   .cursos_imagem_container_rapido {
+    
+    flex: auto;
+}
+   
+.cursos_img_rapido {
+    
+    height: 100%;
+    
+}
 }
 
 
