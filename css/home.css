@@ -1246,11 +1246,19 @@
     flex-direction: column;
     align-items:center;
 }
+   
+   
    .presidente figure {
      
     height: 14em; 
     
 }
+   
+   .presidente p{
+     
+     margin:0;
+     
+   }
    
 .presidente h2 {
     
@@ -1285,6 +1293,43 @@
     font-size: 0.9em;
     width:92%
 }
+   
+   .depoimentos_grid {
+    scroll-snap-type: x mandatory;
+    overflow: auto;
+    position: relative;
+    display: flex;
+    padding-bottom: 0;
+}
+   .depoimentos-container {
+    font-size: 1em;
+    margin: 5rem 0;
+    scroll-snap-align: center;
+    min-width: 95%;
+    margin: 0 1em;
+    background: none;
+    box-shadow: none;
+}
+   
+   #container_controle_direita {
+    left: 0;
+}
+   
+   #container_controle_direita, #container_controle_esquerda {
+    top: 23%;
+}
+   
+   #container_controle_esquerda, #container_controle_direita, #container_controle_direita_video, #container_controle_esquerda_video {
+   
+   position: absolute;
+    padding: 10px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.67);
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(6.9px);
+}
+   
+   
 }
 
 
