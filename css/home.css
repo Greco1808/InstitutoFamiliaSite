@@ -1430,20 +1430,27 @@
 }
    
    .endereco_container h3 {
-      margin: 0.5em 0;
-      text-align: left;
-      font-size: 1.5em;
-      font-family: 'Open Sans', sans-serif;
-      text-transform: uppercase;
-      font-weight: bold;
+      
+      font-size: 1.1em;
+      
 }
    
    .endereco_container p {
-    color: black;
-    text-align: left;
-    font-size: 1.2em;
-    line-height: 2em;
-    font-family: 'Open Sans', sans-serif;
+    
+    font-size: 0.9em;
+    
+}
+   
+   iframe{
+     
+     width:100%;
+     
+   }
+   
+   #logo_wpp img {
+     
+     width:70%;
+    
 }
 }
 
@@ -1455,11 +1462,7 @@
      
    }
    
-   #logo_wpp img{
-     
-     width:70%;
-     
-   }
+   
    
    #container_controle_esquerda, #container_controle_direita{
   
