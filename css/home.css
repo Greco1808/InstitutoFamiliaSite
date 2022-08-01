@@ -1327,19 +1327,37 @@
     left: 0;
 }
    
+   #container_controle_esquerda{
+     
+     right:0;
+     
+   }
+   
    #container_controle_direita, #container_controle_esquerda {
-    top: 23%;
+    top: 21%;
 }
    
    #container_controle_esquerda, #container_controle_direita, #container_controle_direita_video, #container_controle_esquerda_video {
    
-   position: absolute;
+    position: absolute;
     padding: 10px;
     cursor: pointer;
     background: rgba(255, 255, 255, 0.67);
     box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
     backdrop-filter: blur(6.9px);
+    display:block;
 }
+   
+   #autor-depoimento {
+    color: white;
+}
+   
+   #texto-depoimento {
+    margin: 1.5em;
+    color: white;
+}
+   
+   
    
    
 }
