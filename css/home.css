@@ -1447,11 +1447,12 @@
      
    }
    
-   #logo_wpp img {
-     
-     width:70%;
-    
-}
+#logo_wpp_img{
+  
+  min-width:4em;
+  
+  
+   }
 }
 
 
