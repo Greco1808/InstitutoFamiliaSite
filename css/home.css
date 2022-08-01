@@ -1281,6 +1281,18 @@
     
 }
    
+   .instrutores-master {
+
+    display: flex;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+}
+   .instrutores-container {
+    
+    scroll-snap-align: center;
+}
+   
+   
   .instrutores-container h2 {
     
     
