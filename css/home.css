@@ -1414,6 +1414,38 @@
     width: 70vw;
     height: 37vh;
 }
+   
+   .localizacao_container {
+    
+    display: block;
+    margin: 3rem 2rem;
+     
+   }
+   
+   .endereco_container {
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-size: 1em;
+    width: 100%;
+}
+   
+   .endereco_container h3 {
+      margin: 0.5em 0;
+      text-align: left;
+      font-size: 1.5em;
+      font-family: 'Open Sans', sans-serif;
+      text-transform: uppercase;
+      font-weight: bold;
+}
+   
+   .endereco_container p {
+    color: black;
+    text-align: left;
+    font-size: 1.2em;
+    line-height: 2em;
+    font-family: 'Open Sans', sans-serif;
+}
+}
 
 
  @media screen and (min-width:375px) and (max-width:600px){
