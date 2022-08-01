@@ -1449,7 +1449,7 @@
    
 #logo_wpp_img{
   
-  min-width:3em;
+  max-width:4em;
   
   
    }
@@ -1997,6 +1997,13 @@
      width:100%;
      
      
+   }
+   
+   #logo_wpp_img{
+  
+  max-width:5em;
+  
+  
    }
    
    
