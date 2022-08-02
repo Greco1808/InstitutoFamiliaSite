@@ -1456,12 +1456,14 @@
 }
 
 
- @media screen and (min-width:376px) and (max-width:600px){
+ @media screen and (min-width:376px) and (max-width:567px){
   
    
-   .cabecalho{
-     
-   }
+    .cabecalho {
+    
+    justify-content: center;
+    
+}
    
    
    
@@ -1598,11 +1600,7 @@
      
    }
    
-   .cabecalho{
-   
-   flex-direction:column;
-   flex-wrap:nowrap;
-   }
+  
  
    .navegacao__header{
  
@@ -2013,7 +2011,7 @@
 
 
 
-@media screen and (min-width:600px) and (max-width:1300px){
+@media screen and (min-width:568px) and (max-width:1300px){
   
   
   .instrutores-master{
@@ -2022,6 +2020,9 @@
     margin: 0 1em;
     overflow: auto;
 }
+  
+ 
+img {
      
 .video_container {
     
