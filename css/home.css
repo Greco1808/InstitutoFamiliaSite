@@ -1456,7 +1456,7 @@
 }
 
 
- @media screen and (min-width:376px) and (max-width:567px){
+ @media screen and (min-width:376px) and (max-width:600px){
   
    
     .cabecalho {
@@ -2011,7 +2011,7 @@
 
 
 
-@media screen and (min-width:568px) and (max-width:1300px){
+@media screen and (min-width:600px) and (max-width:1300px){
   
   
   .instrutores-master{
