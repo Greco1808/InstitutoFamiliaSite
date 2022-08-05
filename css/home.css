@@ -2147,6 +2147,29 @@
     min-width: 45%;
 }
   
+  .depoimentos_grid {
+    
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+}
+  
+  .depoimentos-container {
+    
+    margin: 1em;
+    
+}
+  
+  #autor-depoimento {
+    
+    margin-left: 1em;
+    font-size: 1em;
+}
+  
+  #texto-depoimento {
+    
+    font-size: 0.9em;
+}
+  
 }
 
 
