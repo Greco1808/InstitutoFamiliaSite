@@ -2046,6 +2046,62 @@
   
   
   
+  .cursos_imagem_container {
+    width: auto;
+    height: auto;
+    
+}
+  
+  .cursos_img {
+    width: auto; 
+    height: auto; 
+    
+}
+  
+  .cursos_container {
+    
+    justify-content: center;
+}
+  
+  .descricao_curso h2 {
+    
+    font-size: 1.4em;
+    
+}
+  
+
+  .descricao_curso p {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+  
+  .descricao_curso h3 {
+    font-size: 1.1em;
+    
+}
+  
+  .collapsible {
+    
+    font-size: 1.5em;
+    
+}
+  
+  .cursos_rapidos_container {
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 2em;
+}
+  .cursos_rapido h2 {
+    
+    font-size: 1.1em;
+    
+}
+  
+  .descricao_curso_rapido {
+    
+    font-size: 1em;
+    
+}
 }
 
 
