@@ -2142,6 +2142,11 @@
     scroll-snap-type: x mandatory;
 }
   
+  .instrutores-container {
+    
+    min-width: 45%;
+}
+  
 }
 
 
