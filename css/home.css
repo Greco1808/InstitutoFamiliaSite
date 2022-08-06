@@ -2170,6 +2170,14 @@
     font-size: 0.9em;
 }
   
+  .video_container {
+    scroll-snap-type:x mandatory;
+}
+  
+  .video_depoimento {
+    scroll-snap-align:center;
+}
+  
   video{
     
     max-width:14em;
