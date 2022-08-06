@@ -2184,6 +2184,33 @@
   
   }
   
+  #container_controle_direita_video, #container_controle_esquerda_video {
+    display:none;
+}
+  
+  .fotos-container {
+    
+    margin: 0 1rem;
+    display: flex;
+    overflow: auto;
+}
+  
+  .img {
+    width: auto; 
+    
+}
+  
+  .localizacao_container {
+    justify-content: flex-start;
+    margin:3em 1em;
+}
+  
+  .endereco_container {
+    width: 100%;
+}
+  
+  
+  
 }
 
 
