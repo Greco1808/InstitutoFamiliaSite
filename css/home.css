@@ -2149,7 +2149,7 @@
   
   .depoimentos_grid {
     
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 2em;
 }
   
@@ -2279,6 +2279,11 @@
     
 }
   
+  video{
+    
+    min-width:14em;
+  
+  }
 }
 
 
