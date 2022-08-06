@@ -2170,6 +2170,12 @@
     font-size: 0.9em;
 }
   
+  video{
+    
+    max-width:14em;
+  
+  }
+  
 }
 
 
@@ -2279,11 +2285,7 @@
     
 }
   
-  video{
-    
-    min-width:14em;
   
-  }
 }
 
 
