@@ -669,6 +669,7 @@
      box-sizing: border-box;
      min-height: 32em;
      line-height:1.5em;
+     min-width:45%;
      
    
  }
@@ -2221,7 +2222,7 @@
 
 
 
-@media screen and (min-width:750px) and (max-width:1400px){
+@media screen and (min-width:750px) and (max-width:1300px){
   
   
   .instrutores-master{
