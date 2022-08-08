@@ -1252,6 +1252,7 @@
    .presidente figure {
      
     height: 14em; 
+    width: 80vw;
     
 }
    
@@ -1291,6 +1292,8 @@
    .instrutores-container {
     
     scroll-snap-align: center;
+    min-width: 70%;
+     
 }
    
    
@@ -1304,7 +1307,8 @@
   .instrutores-container p {
     
     font-size: 0.9em;
-    width:92%
+    width:100%;
+    text-align: center;
 }
    
    .depoimentos_grid {
