@@ -18,39 +18,26 @@
     
     <nav id="navegacao">
       <ul class="navegacao__header">
-        <a href="#sobreNos">Home</a>
+        <a href="#sobre">Home</a>
         <a href="#cursos">Cursos</a>
         <a href="#depoimentos">Depoimentos</a>
+        <a href="#fotos">Fotos</a>
         <a href="#contato">Contato</a>
       </ul>
     </nav>
   </header>
 <section>
   <div class="master fade">
-  <div class="Slides fade">
-     <img src="img/banner_principal.jpg" id="banner_principal" style="width:100%; height:100%; object-fit:cover;">
-     <img src="img/logo.png" id="logo">
-     <h2 id="chamada_1"> Seja um psicanalista</h2>
-     <h3 id="chamada_teste">Desenvolva suas habilidades em um lugar que preza pela formação cristã</h3>
-    <a class="saibaMais" href="#cursos">Saiba Mais</a>
+    <div class="Slides fade">
+      <img src="img/banner_principal.jpg" id="banner_principal" style="width:100%; height:100%; object-fit:cover;">
+      <img src="img/logo.png" id="logo">
+        <h2 id="chamada_1"> Seja um psicanalista</h2>
+        <h3 id="chamada_teste">Desenvolva suas habilidades em um lugar que preza pela formação cristã</h3>
+        <a class="saibaMais" href="#cursos">Saiba Mais</a>
+    </div>  
   </div>
-  <div class="Slides fade">
-        <img src="img/banner2.2.jpg" style="width:100%; height:100%; object-fit:cover;">
-        
-        <div class="saibaMais" onclick="avancaSlide(1)">Saiba Mais</div>
-  </div>
-      <div class="Slides fade">  
-        <img src="img/banner3.3.jpg" style="width:100%; height:100%; object-fit:cover;">
-        <div class="borda_chamada fade" id="borda_chamada3">
-        <h2 id="chamada_3">Profissão em alta expansão no mundo</h2>
-    </div>
-    <div class="saibaMais" onclick="avancaSlide(1)">Saiba Mais</div>
-  </div>
-  <a class="next" onclick="avancaSlide(-1)">&#10094</a>
-  <a class="previous" onclick="avancaSlide(1)">&#10095</a>
-</div>
 </section>
-<h1>Sobre o instituto</h1>
+<h1 id="sobre">Sobre o instituto</h1>
     <section id="sobreNos-container" data-aos="fade-up">
      <article class="sobreNos">
         <p>Em fevereiro de 20217, iniciou-se um projeto de formação em psicanálise que seria chamado de Instituto da Família</p>
@@ -399,7 +386,7 @@ Espero poder concluir e ajudar pessoas a encontrar a cura interior
       <span id="container_controle_direita_video" onclick="avancaSnap(-1,'video_depoimento')">&#10094</span>
         <span id="container_controle_esquerda_video" onclick="avancaSnap(1,'video_depoimento')">&#10095</span>
       </section>
-<h1>Galeria de fotos</h1>
+<h1 id="fotos">Galeria de fotos</h1>
       <section class="galeria-fotos">
         
           <div class="fotos-container">
@@ -441,7 +428,7 @@ Espero poder concluir e ajudar pessoas a encontrar a cura interior
       
     </section>
 
-    <h1>localização</h1>
+    <h1 id="contato">localização</h1>
     <section class="localizacao">
       
       <div class="localizacao_container">
