@@ -2164,8 +2164,9 @@
   
   .depoimentos_grid {
     
-    grid-template-columns: 1fr;
+    grid-template-columns: 0.8fr;
     grid-gap: 2em;
+    justify-content: center;
 }
   
   .depoimentos-container {
